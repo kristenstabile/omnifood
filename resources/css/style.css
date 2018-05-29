@@ -6,7 +6,9 @@ Main green color: #27ae60;
 
 
 /* ------------------------------------------ */
+
 /* BASIC SETUP */
+
 /* ------------------------------------------ */
 
 * {
@@ -25,7 +27,10 @@ html {
     text-rendering: optimizeLegibility;
 }
 
-.clearfix {zoom: 1}
+.clearfix {
+    zoom: 1
+}
+
 .clearfix:after {
     content: '.';
     clear: both;
@@ -36,7 +41,9 @@ html {
 
 
 /* ------------------------------------------ */
+
 /* REUSABLE COMPONENTS */
+
 /* ------------------------------------------ */
 
 .row {
@@ -123,7 +130,7 @@ h3 {
     color: #27ae60;
     font-size: 120%;
     margin-right: 6px;
-    
+
     /*** secret to align text and icons ***/
     line-height: 120%;
     vertical-align: middle;
@@ -192,7 +199,9 @@ a:active {
 
 
 /* ------------------------------------------ */
+
 /* HEADER */
+
 /* ------------------------------------------ */
 
 header {
@@ -246,7 +255,9 @@ header {
 }
 
 /* ------------------------------------------ */
+
 /* FEATURES */
+
 /* ------------------------------------------ */
 
 .section-features .long-copy {
@@ -260,7 +271,9 @@ header {
 
 
 /* ------------------------------------------ */
+
 /* MEALS */
+
 /* ------------------------------------------ */
 
 .section-meals {
@@ -302,7 +315,9 @@ header {
 
 
 /* ------------------------------------------ */
+
 /* HOW IT WORKS */
+
 /* ------------------------------------------ */
 
 .section-steps {
@@ -369,9 +384,10 @@ header {
 
 
 /* ------------------------------------------ */
-/* CITIES */
-/* ------------------------------------------ */
 
+/* CITIES */
+
+/* ------------------------------------------ */
 
 .box img {
     width: 100%;
@@ -379,7 +395,7 @@ header {
     margin-bottom: 15px;
 }
 
-.section-cities  h3 {
+.section-cities h3 {
     font-weight: 400;
     text-align: center;
 }
@@ -391,7 +407,9 @@ header {
 
 
 /* ------------------------------------------ */
+
 /* TESTIMONIALS */
+
 /* ------------------------------------------ */
 
 .section-testimonials {
@@ -434,9 +452,10 @@ cite img {
 
 
 /* ------------------------------------------ */
-/* PRICING */
-/* ------------------------------------------ */
 
+/* SIGN UP & PRICING */
+
+/* ------------------------------------------ */
 
 .plan-box .btn-ghost {
     color: #27ae60;
@@ -445,4 +464,68 @@ cite img {
 .plan-box .btn-ghost:hover {
     color: #fff;
 }
+
+.section-plans {
+    background-color: #f4f4f4;
+}
+
+.plan-box {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 0 2px 2px #efefef;
+}
+
+.plan-box h3,
+.plan-box p,
+.plan-price {
+    text-align: center;
+}
+
+.plan-box div {
+    padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.plan-box div:first-child {
+    background-color: #fcfcfc;
+    border-top-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+
+.plan-box div:last-child {
+    text-align: center;
+    border: none;
+}
+
+.plan-price {
+    color: #27ae60;
+    font-size: 300%;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+.plan-price span {
+    font-size: 30%;
+    font-weight: 300;
+}
+
+
+.plan-price-meal {
+    font-size: 80%;
+}
+
+.plan-box ul {
+    list-style: none;
+}
+
+.plan-box ul li{
+    padding: 5px 0;
+}
+
+
+
+
 
