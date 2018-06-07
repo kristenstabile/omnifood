@@ -80,9 +80,26 @@ $(document).ready(function () {
         if (icon.hasClass('ion-navicon-round')) {
             icon.addClass('ion-close-round');
             icon.removeClass('ion-navicon-round');
-        } else { 
+        } else {
             icon.addClass('ion-navicon-round');
             icon.removeClass('ion-close-round');
+        }
+    });
+
+    /* Maps */
+    var map = new GMaps({
+        div: '.map',
+        lat: 38.7436883,
+        lng: -9.07,
+        zoom: 12
+    });
+
+    map.addMarker({
+        lat: 38.7436883,
+        lng: -9.1952226,
+        title: 'Lisbon',
+        infoWindow: {
+            content: '<p>Our Lisbon HQ</p>'
         }
     });
 
